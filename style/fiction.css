@@ -1,0 +1,201 @@
+*{
+                padding: 0;
+                margin: 0;
+
+            } 
+            .copy
+            {
+                display : inline ;
+                margin:200px;
+                color:white;
+            }
+            body
+            {
+                background-image:url(../image/fiction.png);
+                background-repeat:none;
+                background-attachment:fixed;
+                background-position:center;
+                background-size:cover;
+            }
+            label
+            {
+                font-size:20px;
+                font-weight:bold;
+                margin:100px;
+                padding-top:-10%;
+                padding-bottom: 10%;
+                color:white;
+                font-family:inherit;
+                word-spacing: 4px;
+                letter-spacing: 1.5 px;
+            }
+            .head a
+            {
+                margin:70px;
+                padding-top: 50px;
+                
+            }
+            .logout
+            {
+                font-size:18.5px;
+                font-weight:bold;
+                margin:100px;
+                padding-top:-10%;
+                padding-bottom: 10%;
+                color:white;
+                font-family:inherit;
+                word-spacing: 4px;
+            }
+            .foot a
+            {
+                margin:200px;
+            }
+            .head
+            {
+                background-color:rgba(39,143,146,.4);
+                height:35px;
+                padding-top: 15px;
+            }
+            .foot
+            {
+                background-color:rgba(39,143,146,.4);
+                margin-top: 70px;
+                height:25px;
+                padding-top:5px;
+            }
+            
+            a
+            {
+                text-decoration:none;
+                color:white;
+            }
+            .history1
+            {
+                margin-top:7.5%;
+                margin-left:2%;
+                background-color:rgba(255,255,255,.3);
+                width:350px;
+                height:450px
+            }
+            .history2
+            {
+                margin-top:-450px;
+                margin-left:37%;
+                background-color:rgba(255,255,255,.3);
+                width:350px;
+                height:450px
+            }
+            .history3
+            {
+                margin-top:-450px;
+                margin-left:74%;
+                background-color:rgba(255,255,255,.3);
+                width:350px;
+                height:450px
+            }
+            .grant-pic
+            {
+                width:300px;
+                height:350px;
+                margin-left:25px;
+                margin-top:25px;
+            }
+            .ancient-pic
+            {
+                width:300px;
+                height:350px;
+                margin-left:25px;
+                margin-top:25px;
+            }
+            .democracy-pic
+            {
+                width:300px;
+                height:350px;
+                margin-left:25px;
+                margin-top:25px;
+            }
+            .grant-name
+            {
+                display:block;
+                margin-top:10px;
+                margin-left:100px;
+                color:lightskyblue;
+            }
+            .ancient-name
+            {
+                display:block;
+                margin-top:10px;
+                margin-left:102px;
+                color:lightskyblue;
+            }
+            .democracy-name
+            {
+                display:block;
+                margin-top:10px;
+                margin-left:117px;
+                color:lightskyblue;
+            }
+            .grant-price1
+            {
+                margin-left:115px;
+                display:inline;
+                color:white;
+            }
+            .ancient-price1
+            {
+                margin-left:115px;
+                display:inline;
+                color:white;
+            }
+            .democracy-price1
+            {
+                margin-left:125px;
+                display:inline;
+                color:white;
+            }
+            .grant-price2
+            {
+                display:inline;
+                color:lightsalmon;
+                margin-left:10px;
+
+            }
+            .ancient-price2
+            {
+                display:inline;
+                color:lightsalmon;
+                margin-left:10px;
+
+            }
+            .democracy-price2
+            {
+                display:inline;
+                color:lightsalmon;
+                margin-left:10px;
+
+            }
+            .grant-price3
+            {
+                display:inline;
+                color:white;
+                margin-left:10px;
+
+            }
+            .ancient-price3
+            {
+                display:inline;
+                color:white;
+                margin-left:10px;
+
+            }
+            .democracy-price3
+            {
+                display:inline;
+                color:white;
+                margin-left:10px;
+
+            }
+
+.programing{
+    margin-bottom: 100px;
+}

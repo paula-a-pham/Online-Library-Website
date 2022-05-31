@@ -1,0 +1,548 @@
+
+
+@import url('https://font.googlepis.com/cs?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif; 
+}
+body
+{
+    min-height: 100vh;
+    width:100%;
+    transition: all 0.5s ease;
+}
+.sidebar.active
+{
+    width: 60px;
+    
+}
+.sidebar
+{
+ position: fixed;
+ height: 100%; 
+ width: 240px;
+ background:#0A2558;
+transition: all 0.5s ease;
+}
+.sidebar .logo-details
+{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.sidebar .logo-details i 
+{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    min-width: 60px;
+    text-align: center;
+  transition: all 0.5s ease;
+}
+.sidebar .logo-details .logo-name
+{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.sidebar .nav-links li
+{
+    height: 50px;
+    width: 100%;
+    list-style: none;
+}
+.sidebar .nav-links
+{
+margin-top: 16px;
+}
+.sidebar .nav-links li a
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.sidebar .nav-links li a:hover
+{
+    background: #03a9f4;
+}
+.sidebar .nav-links li a i
+{
+    min-width: 60px;
+    text-align:center;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.sidebar .nav-links li a .link_name
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.home-section  .bx
+{
+ color: black;
+}
+.home-section
+{
+    background: #f5f5f5;
+    position: relative;
+    min-height: 100vh;
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.5s ease;
+    
+}
+.sidebar.active ~ .home-section
+{
+    width: calc(100% - 60px);
+    left: 60px;
+}
+.home-section nav
+{
+    
+    width: clac(100% - 240px);
+    left: 240;
+    height: 80px;
+    background: #fff;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+.sidebar .active ~ .home-section nav 
+{
+    width: clac(100% - 240px);
+    left: 60;
+}
+.home-section nav .sidebar-button
+{
+display: flex;
+align-items: center;
+font-size: 24px;
+font-weight: 500;
+transition: all 0.5s ease;
+}
+.home-section nav .sidebar-button i
+{
+ font-size: 35px;
+ margin-right: 20px;
+}
+.home-section nav .search-box
+{
+    
+    height: 50px;
+    width: 550px;
+    margin: 0 20px;
+    position: relative;
+    
+}
+nav .search-box input
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 17px;
+    background: #F5F6Fa;
+    border: 2px solid #EFEEF1;
+    outline: none;
+}
+nav .search-box .bx-search
+{
+    position: absolute;
+    left:91%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: #2697ff;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+ .home-section nav .profile-details
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    min-width: 190px;
+    background: #F5f6fa;
+    border:2px solid #EFEEF1;
+    padding 0 15px 0 2px;
+}
+nav .profile-details img
+{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+nav .profile-details .admin-name 
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 10px;
+    white-space: nowrap;;
+    
+}
+nav .profile-details i
+{
+    color: #333;
+    font-size: 25px;
+}
+
+/*home-content*/
+.home-section .home-content
+{
+    position: relative;
+    padding-top: 20px;
+}
+.home-section .overview-boxes .box
+{
+    width: calc(100% / 4 - 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 14px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0 , 0 , 0.1)
+}
+.home-section .overview-boxes .box_topic
+{
+    font-size:20px;
+    font-weight: 500;
+
+}
+.home-section .overview-boxes
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;   
+}
+.home-section .overview-boxes .number
+{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top:  5px;
+    display: inline-block;
+}
+.overview-boxes .indicator
+{
+    height: 20px;
+    align-items: center;
+}
+.overview-boxes .indicator i
+{
+    height: 20px;
+    width: 20px;
+    background: #8FDACB;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-right: 5px;
+    
+}
+.overview-boxes .indicator i.down 
+{
+    background: #e87d88;
+}
+.overview-boxes .box .cart
+{
+    font-size: 32px;
+    font-weight: 500;
+    height:50px;
+    width: 50px;
+    background: #cce5ff;
+    color: #66b0ff;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 12px;
+}
+.overview-boxes .box .cart.two
+{
+    background: #C0F2D8;
+    color: #2BD47D;
+}
+.overview-boxes .box .cart.three
+{
+    background: #ffe8b3 ;
+    color: #ffc233;
+}
+.overview-boxes .box .cart.four
+{
+    background:#f7d4d7;
+    color: #e05260;
+}
+
+@madia (max-width: 1216px)
+{
+    .sidebar{
+      width: 60px;
+    }
+    .sidebar.active
+    {
+      width: 240px;
+    }
+    .home-section
+    {
+        width: calc(100% - 220px);
+        left: 60px;
+    }
+    .sidebar.active~ .home-section
+    {
+        width: calc(100% - 60px);
+        left: 40px;
+    }
+    .home-section nav 
+    {
+        width: calc(100% - 220px);
+        left: 220px;
+    }
+}
+@media (max-width: 1078px)
+{
+   .home-section .sales-box 
+    {
+        flex-direction: column;
+    }
+    .home-section .sales-box .box
+    {
+        margin-bottom: 20px;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .home-section .sales-box .control
+    {
+     margin-left: 0;
+        
+    }
+    
+}
+@media (max-width: 658px)
+{
+    .home-section nav .sidebar-button .dashboard,
+    nav .profile-details .admin-name, 
+    nav .profile-details i{
+        display: none;
+    }
+    .home-section nav .profile-details{
+        min-width: 50px;
+        height: 50px;
+}
+    .home-section .sales-box .sales-details
+    {
+    width: 590px;
+    }
+    .home-content .overview-boxes .box{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1018px)
+{
+    .home-content .overview-boxes .box{
+        width: calc (100%/2 - 15px);
+        margin-bottom: 15px;
+    }
+}
+
+/*sales*/
+.home-section .sales-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.home-section .sales-box .sales-details
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-section .sales-box .recent-sale
+{
+    width: 65%;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0,0.1);
+    padding: 20px;
+}
+.home-section .sales-box .box .title
+{
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.home-section .sales-box .box .topic
+{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.home-section .sales-box .box li
+{
+    list-style: none;
+    margin: 8px 0;
+}
+.sales-box .box li a
+{
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration:none;
+}
+.sales-box .button
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end
+}
+.sales-box .button a
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background: #0A2558;
+    padding: 4px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.sales-box .button a:hover
+{
+    background: #03a9f4;
+}
+
+
+/*right side*/
+
+.home-section .sales-box .top-sale
+{
+    width: 35%;
+    margin-left: 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0,1);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.color
+{
+    
+    margin: center;
+    font-size: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0,0.1);
+    padding; 25px;
+}
+.change
+{
+    width:295px;
+    height:220px;
+}
+.change form
+{
+    display:inline;
+}
+.color1
+{
+    display:inline;
+    margin-top:30px;
+    margin-left:64px;
+}
+.view1
+{
+    display:inline;
+    width:70px;
+    height:25px;
+    margin-top:30px;
+    margin-left:20px;
+}
+.color2
+{
+    display:inline;
+    margin-top:30px;
+    margin-left:64px;
+}
+.view2
+{
+    display:inline;
+    width:70px;
+    height:25px;
+    margin-top:30px;
+    margin-left:30px;
+}
+.color3
+{
+    display:inline;
+    margin-top:30px;
+    margin-left:64px;
+}
+.view3
+{
+    display:inline;
+    width:70px;
+    height:25px;
+    margin-top:30px;
+    margin-left:42px;
+    margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
